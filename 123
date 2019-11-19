@@ -1,0 +1,31 @@
+    abstract class CShape
+    {
+    protected String color:
+    public void setColor(String str)
+    {
+    this.color=str;
+    }
+    public abstract void show();
+    }
+    class CTectangle extends CShape
+    {
+    protected double area:
+    public CTectangle(double a,double b,double c)
+    {
+    this a=a;
+    this b=b;
+    this c=c;
+    
+    }
+    public void show();{
+    System.out.print("color"=color+",");
+    System.out.println("area="+0.5*a*b);
+    }
+    }
+    class Main{
+    public static void main(String[] args){
+    CTectangle Triangle = new CTectangle(3,4,5);
+    Triangle.setColor("Red");
+    Triangle.show();
+    }
+    }
